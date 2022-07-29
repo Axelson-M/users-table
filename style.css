@@ -2,8 +2,8 @@ body{
 margin:0 ;
 padding: 0;
 font-family:serif;
-background:url(Images/B2.jpg) ;
-background-size: cover;
+background:url(Images/Back.jpg) no-repeat;
+background-size: auto;
 }
 
 .box{
@@ -14,7 +14,7 @@ background-size: cover;
     position: absolute;
     transform:translate(-50%,-50%);
     text-align: center;
-    background:#000;
+    background: #072C50;
 }   
 .box h1{
     color: aliceblue;
@@ -28,30 +28,31 @@ background-size: cover;
  display: block;
  background: none;
  margin: 20px auto;
- border: 3px solid #ADD8E6;
+ border: 3px solid #635E87;
 padding: 14px 10px;
 outline: none;
+border-radius:24px;
 color: #fff;
 transition: 0.25px;
 
 }
-
+/*
 .box input[type="text"]:focus,.box input[type="password"]:focus{
 
- width:270px;
+ width:100%;
  border-color:#FFD700;
 
 }
-
+*/
 .box input[type="submit"]{
     border:0 ;
     background:none ;
     display: block;
     margin:20px auto;
     text-align: center;
-    border:3px solid #FFD700;
+    border:3px solid #CFCAA8;
     padding:14px 10px;
-    width:100px ;
+    width: 30%;
     outline:none ;
     border-radius:24px;
     color: #fff;
@@ -60,6 +61,6 @@ transition: 0.25px;
 }
 
 .box input[type="submit"]:hover{
-    background: #FFD700;
+    background: #CFCAA8;
 
 }
